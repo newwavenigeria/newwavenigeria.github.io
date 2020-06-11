@@ -10,7 +10,7 @@ title:            New Wave Nigeria
 tagline:          ''
 description:      'Add description here...'
 url:              https://newwavenigeria.github.io/
-baseurl:          https://newwavenigeria.github.io/
+baseurl:          /
 
 author:
   name:           'Mark Otto'
