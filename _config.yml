@@ -10,7 +10,7 @@ title:            New Wave Nigeria
 tagline:          ''
 description:      'Add description here...'
 url:              http://hyde.getpoole.com
-baseurl:          /
+baseurl:          http://newwavenigeria.github.io/poole/
 
 author:
   name:           'Mark Otto'
