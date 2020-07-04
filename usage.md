@@ -35,10 +35,13 @@ You'll then arrive at the repository, which contains all the code for the websit
 | atom.xml              |                                 | Generates the needed XML for someone to add the site to their RSS feed                                                                                   |
 | index.html            |                                 | Logic for bringing all the templates together (e.g. next page functionality, display order of posts)                                                     |
 
-## Adding/Editing Content
+## Content
 
-Main changes that you'll need will probably occur within the `_includes/sidebar.html`, `_posts`, and `about.md` files/folders. All editing/creation of these files/new files can be completed
-from the browser. Here's an example of how to edit a pre-existing post:
+Main changes that you'll need will probably occur within the `_includes/sidebar.html`, `_posts`, and `about.md` files/folders. All editing/creation of these files/new files can be completed from the browser.
+
+### Editing Content
+
+Here's an example of how to edit a pre-existing post:
 
 1. Go to the `_posts` folder
 
@@ -56,7 +59,28 @@ from the browser. Here's an example of how to edit a pre-existing post:
 
 ![Change content](https://i.imgur.com/UFMSFaM.png)
 
-5. After you're finished, press the green "Commit changes" button
+5. After you're finished, press the green "Commit changes" button, and the changes should appear on the site within ~5 minutes.
 
 ![Save changes](https://i.imgur.com/bLCrkjV.png)
 
+### Adding Content
+
+Here's an example of how to create a new post:
+
+1. Go to the `_posts` folder
+
+![Click posts](https://i.imgur.com/mfROhpz.png)
+
+2. Click on "Add File" and then "Create new File":
+
+![Create post](https://i.imgur.com/002rNAH.png)
+
+3. You'll arrive at this view. Enter a title with format `YYYY-MM-DD-<TITLE>.md`. This allows the website to display the date correctly for the post. The `.md` is just the needed file format of posts for the side (Markdown)
+
+![Post Title](https://i.imgur.com/TdI3rd4.png)
+
+4. Enter the desired body for the post. As just mentioned, the file format is Markdown. [Here's](https://www.markdownguide.org/cheat-sheet/) a good guide for learning how to format using Markdown
+
+5. After you're finished, press the green "Commit changes" button, and the new post should appear on the site within ~5 minutes.
+
+![Save changes](https://i.imgur.com/bLCrkjV.png)
